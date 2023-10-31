@@ -1,0 +1,62 @@
+/* main.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.message-icon,
+.time-icon {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.time-off-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.time-off-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.time-off-table tr {
+    border: 1px solid #dddddd;
+}
+
+.time-off-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.time-off-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
